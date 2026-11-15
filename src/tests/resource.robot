@@ -8,6 +8,6 @@ ${BROWSER}   chromium
 
 *** Keywords ***
 Open And Configure Browser
-    New Browser  browser=${BROWSER}  headless=False  slowMo=${DELAY}
+    New Browser  browser=${BROWSER}  headless=True  slowMo=${DELAY}
     New Context
     New Page  about:blank
